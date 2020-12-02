@@ -446,6 +446,7 @@ header li a:hover {
 .photos {
 	background-image: url(../img/photos_bg.jpg);
 	background-size: cover;
+	padding: 120px 0;
 }
 
 
