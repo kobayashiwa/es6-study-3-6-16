@@ -20,7 +20,10 @@ body {
     font-feature-settings: "palt";
 	letter-spacing: .8px;
 	font-size: 16px;
-	font-weight: 400;
+	font-weight: 300;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: 300;
 }
 p {
 	line-height: 180%;
@@ -94,7 +97,6 @@ header li a:hover {
 	font-size: 16px;
 	margin-top: 40px;
 	padding: 0 24px;
-	font-weight: 300;
 }
 .top-cover .btn {
 	background: rgba(0, 0, 0, 0.17);
@@ -123,7 +125,6 @@ header li a:hover {
 }
 .main-menu h3 {
 	font-size: 72px;
-	font-weight: 300;
 	color: #4A4A4A;
 }
 .main-menu ul {
@@ -174,7 +175,6 @@ header li a:hover {
 }
 .price h4 {
 	font-size: 30px;
-	font-weight: 300;
 	color: #7D7D7D;
 }
 .chef {
@@ -182,7 +182,6 @@ header li a:hover {
 }
 .chef h4 {
 	font-size: 24px;
-	font-weight: 300;
 	color: #7D7D7D;
 }
 .chef-detail {
@@ -191,7 +190,6 @@ header li a:hover {
 }
 .chef-detail h5 {
 	font-size: 24px;
-	font-weight: 300;
 	color: #7b7b7b;
 	position: relative;
 	top:  90px;
@@ -276,7 +274,6 @@ header li a:hover {
 .slide-show h3 {
 	color: #fff;
 	font-size: 40px;
-	font-weight: 300;
 	text-align: center;
 }
 .slide-blc {
@@ -296,7 +293,6 @@ header li a:hover {
 }
 .slide-show .text-blc h4{
 	font-size: 40px;
-	font-weight: 300;
 	color: #3f3f3f;
 	position: relative;
 	padding-bottom: 32px;
@@ -415,7 +411,6 @@ header li a:hover {
 .service h3 {
 	color: #4A4A4A;
 	font-size: 40px;
-	font-weight: 300;
 	text-align: center;
 }
 .ServiceList {
@@ -445,6 +440,13 @@ header li a:hover {
 	margin-top: 24px;
 	font-size: 20px;
 	color: #E0931E;
+}
+
+/** Photos **/
+.photos {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/photos_bg.jpg);
+	background-size: cover;
+	padding: 120px 0;
 }
 
 
