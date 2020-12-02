@@ -453,6 +453,10 @@ header li a:hover {
 	font-size: 40px;
 	text-align: center;
 }
+.flexbox {
+	margin-top: 64px;
+	justify-content: center;
+}
 
 
 
