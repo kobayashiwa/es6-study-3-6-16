@@ -442,6 +442,12 @@ header li a:hover {
 	color: #E0931E;
 }
 
+/** Photos **/
+.photos {
+	background-image: url(../img/photos_bg.jpg);
+	background-size: cover;
+}
+
 
 
 
