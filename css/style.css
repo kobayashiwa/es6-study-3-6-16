@@ -455,14 +455,17 @@ header li a:hover {
 }
 .flexbox {
 	margin-top: 64px;
-	justify-content: center;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	height: 100vw;
+	height: 70vw;
 }
 .item {
 	width: 33.33%;
+	margin: 16px;
+}
+.item img {
+	width: 100%;
 }
 
 
