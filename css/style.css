@@ -461,6 +461,9 @@ header li a:hover {
 	flex-wrap: wrap;
 	height: 100vw;
 }
+.item {
+	width: 33.33%;
+}
 
 
 
