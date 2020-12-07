@@ -448,6 +448,26 @@ header li a:hover {
 	background-size: cover;
 	padding: 120px 0;
 }
+.photos h3 {
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+}
+.flexbox {
+	margin-top: 64px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	max-height: 85vw;
+	overflow: scroll;
+}
+.item {
+	width: 25%;
+	padding: 8px;
+}
+.item img {
+	width: 100%;
+}
 
 
 
